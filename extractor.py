@@ -104,13 +104,12 @@ def extract(posting_text: str) -> dict:
         try:
             result = parse_json(raw)
             errors = validate_structure(result)
-        except ValueError as e:          # covers broken JSON and "no JSON found"
+        except ValueError as e:
             errors = [f"Invalid JSON: {e}"]
         if not errors:
             result["fixes"] = apply_rules(result)
             return result
         print(f"[attempt {attempt} invalid: {errors}]", file=sys.stderr)
-        # Retry once, telling the model exactly what was wrong.
         user = (f"Job posting:\n\n{posting_text}\n\n"
                 f"Your previous answer had these problems: {'; '.join(errors)}. "
                 "Return a corrected JSON object only.")
