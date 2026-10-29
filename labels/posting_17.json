@@ -1,0 +1,18 @@
+{
+  "company": "Interac",
+  "role_title": "QE Intern",
+  "location": "Toronto",
+  "work_mode": "hybrid",
+  "term": "January to April 2027",
+  "deadline": null,
+  "required_skills": [
+    "Agile",
+    "test automation"
+  ],
+  "nice_to_have_skills": [
+    "software testing",
+    "Jira",
+    "Postman",
+    "ReadyAPI"
+  ]
+}

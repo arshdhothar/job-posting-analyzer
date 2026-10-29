@@ -1,0 +1,20 @@
+{
+  "company": "Hitachi Rail",
+  "role_title": "Software Analyst Intern",
+  "location": "Scarborough, ON",
+  "work_mode": "hybrid",
+  "term": "January 2027 - August or December 2027 (8-12 months)",
+  "deadline": null,
+  "required_skills": [
+    "C",
+    "C++",
+    "Python",
+    "Microsoft Visual Studio",
+    "CI/CD",
+    "Microsoft Office",
+    "version control",
+    "unit testing",
+    "test automation"
+  ],
+  "nice_to_have_skills": []
+}

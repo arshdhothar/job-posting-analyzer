@@ -1,0 +1,43 @@
+{
+  "company": "Capital One",
+  "role_title": "Intern, Backend Software Engineer - Team Interstellar",
+  "location": "Toronto, Ontario",
+  "work_mode": "hybrid",
+  "term": "Winter 2027",
+  "deadline": null,
+  "required_skills": [
+    "SQL",
+    "Spring Boot",
+    "Middy",
+    "Spark",
+    "Lambda",
+    "ECS",
+    "Fargate",
+    "DynamoDB",
+    "SAM",
+    "CloudWatch",
+    "SNS",
+    "Snowflake",
+    "Vitest",
+    "JUnit",
+    "Cucumber",
+    "BDD",
+    "Mockito",
+    "Jenkins",
+    "Docker",
+    "APIs",
+    "ETL",
+    "Agile",
+    "automated testing"
+  ],
+  "nice_to_have_skills": [
+    "Java",
+    "TypeScript",
+    "Python",
+    "Git",
+    "version control",
+    "AWS",
+    "CI/CD",
+    "data pipelines"
+  ]
+}

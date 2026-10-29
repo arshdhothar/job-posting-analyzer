@@ -1,0 +1,34 @@
+{
+  "company": "BMW Group Financial Services",
+  "role_title": "Business Intelligence and AI Intern",
+  "location": null,
+  "work_mode": null,
+  "term": "12 months, start date 11/02/2026",
+  "deadline": null,
+  "required_skills": [
+    "Python",
+    "machine learning",
+    "statistics",
+    "Microsoft Office",
+    "PowerPoint",
+    "Excel",
+    "SQL",
+    "Generative AI",
+    "LLMs",
+    "prompt engineering",
+    "agentic AI",
+    "Agile",
+    "Scrum",
+    "Kanban",
+    "Jira"
+  ],
+  "nice_to_have_skills": [
+    "Tableau",
+    "data visualization",
+    "feature selection",
+    "parameter tuning",
+    "Git",
+    "GitHub",
+    "MCP"
+  ]
+}

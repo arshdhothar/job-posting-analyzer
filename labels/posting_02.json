@@ -1,0 +1,28 @@
+{
+  "company": "Canada Life",
+  "role_title": "DevOps Engineer Student",
+  "location": null,
+  "work_mode": null,
+  "term": "4 months, January - April",
+  "deadline": null,
+  "required_skills": [],
+  "nice_to_have_skills": [
+    "AWS",
+    "Microsoft Azure",
+    "Google Cloud Platform",
+    "CI/CD",
+    "configuration management",
+    "source code management",
+    "Java",
+    "Docker",
+    "Kubernetes",
+    "Agile",
+    "Jira",
+    "Confluence",
+    "Microsoft Teams",
+    "DevOps",
+    "APIs",
+    "microservices",
+    "distributed systems"
+  ]
+}

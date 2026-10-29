@@ -1,0 +1,40 @@
+{
+  "company": "Capital One",
+  "role_title": "Intern, Full Stack Software Engineer - Team Sprout",
+  "location": "Toronto, Ontario",
+  "work_mode": "hybrid",
+  "term": "Winter 2027",
+  "deadline": null,
+  "required_skills": [
+    "JavaScript",
+    "IntelliJ",
+    "VSCode",
+    "Node.js",
+    "Vue",
+    "React",
+    "Java",
+    "AWS",
+    "Route53",
+    "Security Groups",
+    "IAM",
+    "Splunk",
+    "New Relic",
+    "PostgreSQL",
+    "Aurora",
+    "DynamoDB",
+    "Agile",
+    "unit testing",
+    "integration testing"
+  ],
+  "nice_to_have_skills": [
+    "Go",
+    "Lambda",
+    "S3",
+    "Git",
+    "version control",
+    "Jenkins",
+    "CI/CD",
+    "microservices",
+    "API design"
+  ]
+}

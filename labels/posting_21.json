@@ -1,0 +1,26 @@
+{
+  "company": "Marvell",
+  "role_title": null,
+  "location": null,
+  "work_mode": null,
+  "term": null,
+  "deadline": null,
+  "required_skills": [
+    "microcontrollers",
+    "embedded firmware",
+    "CI/CD",
+    "Jenkins",
+    "Python"
+  ],
+  "nice_to_have_skills": [
+    "microcontroller programming",
+    "C",
+    "C++",
+    "bare-metal programming",
+    "chip design verification",
+    "SerDes",
+    "PCIe",
+    "machine learning",
+    "LLMs"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "company": "Sun Life",
+  "role_title": "Software Engineering Co-op Student",
+  "location": null,
+  "work_mode": "hybrid",
+  "term": null,
+  "deadline": "07/10/2026",
+  "required_skills": [
+    "AWS",
+    "S3",
+    "Lambda",
+    "Glue",
+    "Git",
+    "Bitbucket",
+    "Python",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "Jenkins",
+    "Artifactory",
+    "SQL",
+    "PostgreSQL",
+    "LLMs",
+    "ML pipelines",
+    "Model Registry",
+    "microservices",
+    "data pipelines"
+  ],
+  "nice_to_have_skills": [
+    "Agile",
+    "Kanban",
+    "Scrum"
+  ]
+}

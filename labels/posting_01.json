@@ -1,0 +1,19 @@
+{
+  "company": "Intact",
+  "role_title": "New Grad Tech Development Program, Software Development and Cloud Stream",
+  "location": null,
+  "work_mode": "hybrid",
+  "term": "24-month rotation program, beginning May 2027",
+  "deadline": "October 12th",
+  "required_skills": [
+    "Java",
+    "Spring Framework",
+    "Angular",
+    "TypeScript",
+    "AWS",
+    "Azure",
+    "Google Cloud",
+    "Agile"
+  ],
+  "nice_to_have_skills": []
+}

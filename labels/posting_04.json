@@ -1,0 +1,24 @@
+{
+  "company": "General Motors",
+  "role_title": "Co-Op Engineer",
+  "location": "Markham or Oshawa",
+  "work_mode": "hybrid",
+  "term": "8 or 12 months, starting January 2027",
+  "deadline": null,
+  "required_skills": [
+    "Python",
+    "Java",
+    "C",
+    "C++",
+    "DevOps"
+  ],
+  "nice_to_have_skills": [
+    "GitHub",
+    "GitHub Actions",
+    "AWS",
+    "GCP",
+    "Azure",
+    "CI/CD",
+    "embedded software development"
+  ]
+}

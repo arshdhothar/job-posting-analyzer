@@ -1,0 +1,20 @@
+{
+  "company": "Siemens Energy",
+  "role_title": "Analyste en cybersécurité, analyse de données et IA - Stage de 12 mois",
+  "location": "Oakville, Ontario",
+  "work_mode": null,
+  "term": "12 months",
+  "deadline": null,
+  "required_skills": [
+    "Power BI",
+    "data visualization",
+    "data modeling",
+    "DAX",
+    "SQL",
+    "Python",
+    "prompt engineering",
+    "Microsoft Power Platform",
+    "SharePoint"
+  ],
+  "nice_to_have_skills": []
+}

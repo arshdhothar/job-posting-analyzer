@@ -1,0 +1,20 @@
+{
+  "company": "Harvey",
+  "role_title": "Software Engineer, Intern",
+  "location": "Toronto",
+  "work_mode": null,
+  "term": "Winter 2027, 12 or 16 weeks",
+  "deadline": null,
+  "required_skills": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "Java",
+    "Go",
+    "Claude Code",
+    "Codex",
+    "Cursor",
+    "LLMs"
+  ],
+  "nice_to_have_skills": []
+}

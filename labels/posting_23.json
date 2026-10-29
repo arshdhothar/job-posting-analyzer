@@ -1,0 +1,21 @@
+{
+  "company": "Clio",
+  "role_title": "Software Developer, Co-op",
+  "location": "Toronto, Calgary or Burnaby",
+  "work_mode": "hybrid",
+  "term": "8 months, January 2027 to end of August 2027",
+  "deadline": null,
+  "required_skills": [
+    "Ruby on Rails",
+    "AngularJS",
+    "React Native",
+    "MySQL",
+    "Redis",
+    "Elasticsearch"
+  ],
+  "nice_to_have_skills": [
+    "data structures",
+    "algorithms",
+    "SQL"
+  ]
+}

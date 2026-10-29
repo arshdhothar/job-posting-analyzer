@@ -1,0 +1,22 @@
+{
+  "company": "Analog Devices",
+  "role_title": "Embedded Software Engineer Intern",
+  "location": null,
+  "work_mode": null,
+  "term": null,
+  "deadline": null,
+  "required_skills": [
+    "embedded systems",
+    "C",
+    "C++",
+    "Python",
+    "Git",
+    "version control"
+  ],
+  "nice_to_have_skills": [
+    "RTOS",
+    "embedded Linux",
+    "firmware",
+    "digital signal processing"
+  ]
+}

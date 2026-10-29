@@ -1,0 +1,24 @@
+{
+  "company": "Celestica",
+  "role_title": "Web Cloud Student Intern",
+  "location": "North York, ON",
+  "work_mode": "hybrid",
+  "term": "16 months, starting May 2027",
+  "deadline": null,
+  "required_skills": [
+    "Google Cloud Platform",
+    "Microsoft Azure"
+  ],
+  "nice_to_have_skills": [
+    "Java",
+    "Spring Boot",
+    "Angular",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    ".NET",
+    "C#",
+    "SQL",
+    "SDLC"
+  ]
+}
