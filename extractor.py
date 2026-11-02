@@ -6,6 +6,7 @@ import sys
 
 MODEL_ID = "us.amazon.nova-2-lite-v1:0"
 REGION = "us-east-2"
+USAGE = []
 
 client = boto3.client("bedrock-runtime", region_name=REGION)
 
@@ -41,9 +42,12 @@ def call_model(system: str, user: str) -> str:
         modelId=MODEL_ID,
         system=[{"text": system}],
         messages=[{"role": "user", "content": [{"text": user}]}], 
-        inferenceConfig={"maxTokens": 2000, "temperature": 0},
+        inferenceConfig={"maxTokens": 4000, "temperature": 0},
     )
     usage = response["usage"]
+    USAGE.append({"input_tokens": usage["inputTokens"],
+                  "output_tokens": usage["outputTokens"],
+                  "latency_ms": response["metrics"]["latencyMs"]})
     print(f"[tokens in={usage['inputTokens']} out={usage['outputTokens']}, "
           f"stop={response['stopReason']}, latency={response['metrics']['latencyMs']}ms]",
           file=sys.stderr)

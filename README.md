@@ -8,7 +8,7 @@ exact quote from the posting, and the code verifies that quote is really there.
 
 I was applying to dozens of internships and tracking them by hand: copying deadlines,
 noting required skills. This service turns a pasted posting into structured data my
-[Job Application Tracker](https://github.com/arshdhothar) can use. A hallucinated
+[Job Application Tracker](https://github.com/arshdhothar job-application-tracker.) can use. A hallucinated
 deadline means a missed application, so the output has to be verifiable, not just plausible.
 
 ## Architecture
@@ -55,7 +55,7 @@ curl -X POST "$API_URL" -H "Content-Type: application/json" \
   "flagged": []
 }
 ```
-(abridged)
+(abridged; quotes shortened for readability)
 
 ## Security and cost controls
 
@@ -79,12 +79,31 @@ curl -X POST "$API_URL" -H "Content-Type: application/json" \
 
 ## Evaluation
 
-In progress: 26 real postings, hand-labeled using written [annotation guidelines](LABELING.md)
-before seeing any model output. Results will report per-field accuracy, how often grounding
-catches errors, and cost/latency across prompt versions.
+Run on 25 real internship postings (`python eval.py run`, then `python eval.py score`).
+Full results: [results/report.md](results/report.md).
 
-The postings themselves aren't included in this repo because they're third-party content;
-labels and results will be.
+**Labels.** Drafted by an AI from my written [annotation guidelines](LABELING.md). To check
+them, I labeled 8 postings blind and compared: 94% agreement on fields (on meaning), about 70% on skills.
+Nearly all skill disagreements came from gaps in my guidelines, so I fixed the guidelines and
+re-applied them to every label. My blind labels and notes are in [labels_blind/](labels_blind/).
+
+**Results (v1 prompt)**
+- Skills: 80% precision, 75% recall (77% F1). The weak spot is telling optional skills
+  apart: nice-to-have recall is only 35%.
+- Fields: exact-match accuracy ranges from 96% (work mode, deadline) down to 36% (term).
+  Most mismatches are wording differences or incomplete answers (e.g. "16 months" without
+  the start date). The model tends to leave information out rather than invent it.
+- The grounding check flagged 3 items. The remaining errors are interpretation errors,
+  which grounding can't catch, so this is what the evaluation is for.
+- Cost and speed: about $0.003 and 2.3 s (median) per posting.
+
+**Bugs the evaluation found:** a posting with 38 skills hit the output token cap (now
+raised), and the generic-term rule missed “Internship/Cooperative” because it only matched exact strings (fix planned).
+
+**Next:** prompt changes targeting incomplete terms and titles and optional-skill detection,
+measured against this baseline.
+
+The postings themselves aren’t included because they’re third-party content; labels and results are.
 
 ## Run locally
 
@@ -98,6 +117,6 @@ python extractor.py path/to/posting.txt
 
 ## Roadmap
 
-- Evaluation harness and prompt comparison
+- Prompt comparison against the v1 baseline
 - Resume-to-posting matching with retrieval (RAG)
 - Infrastructure as code (AWS SAM) with deploys from GitHub Actions
